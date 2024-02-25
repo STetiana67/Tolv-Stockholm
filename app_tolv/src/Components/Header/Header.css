@@ -1,0 +1,28 @@
+.header
+{ 
+
+    left: 0px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    z-index: 88;
+}
+.site-branding {
+    display: inline-block;
+    float: left;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+    color: #cc1758;
+}
+
+.main-navigation {
+    display: inline-block;
+}
+ Nav.Link {
+    font-size: 1.6em;
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+}

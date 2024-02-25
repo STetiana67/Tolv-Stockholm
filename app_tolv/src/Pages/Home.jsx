@@ -3,6 +3,7 @@ import React, { Component} from 'react';
 //import Carousel from './Components/Carousel/Carousel.jsx';
 //import { Link } from "react-router-dom";
 
+
 export default class Home extends Component {
     render () {
         return (

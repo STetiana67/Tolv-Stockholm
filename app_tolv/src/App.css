@@ -14,7 +14,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  padding: 15px;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+  /*background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,7 +26,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+}*/
 
 .App-link {
   color: #61dafb;
@@ -36,3 +40,9 @@
     transform: rotate(360deg);
   }
 }
+/*@media only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5 / 1), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5)
+.sprite, .rich-text  .slideshow-controls .bx-prev, .slideshow-controls .bx-next {
+    /*background-image: url(img/sprite@2x.png);
+    -ms-background-size: 500px 170px;
+    background-size: 500px 170px;
+} */

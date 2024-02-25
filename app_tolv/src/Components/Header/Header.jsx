@@ -35,7 +35,8 @@ export default class header extends Component {
       <>
         <Navbar fixed='top'collapseOnSelect extend='md' bg='dark' variant='dark' >
           <Container>
-            <Navbar.Brand href='https://tolvstockholm.se/en/'>
+            <Navbar.Brand className='site-branding'  href= 'https://tolvstockholm.se/en/'>
+            
               { 
               <img className="d-inline-block align-top"
                 src={Logo}
